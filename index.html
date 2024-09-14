@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Tailwind CSS Boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="px-6 h-screen flex items-center justify-center bg-[#F4D04E]">
+    <!-- card -->
+    <div
+      class="max-w-96 shadow-[8px_8px_0_black] font-[Figtree] p-6 w-full border bg-white border-[#111111] rounded-[20px]"
+    >
+      <!-- hero image -->
+      <div class="h-[200px] mb-6">
+        <img
+          class="w-full h-full object-cover rounded-[20px]"
+          src="./assets/illustration-article.svg"
+          alt=""
+        />
+      </div>
+      <!-- pill -->
+      <div
+        class="w-fit mb-3 px-3 py-1 bg-[#F4D04E] font-extrabold rounded text-xs lg:text-sm"
+      >
+        Learning
+      </div>
+      <!-- Published date -->
+      <div class="mb-3 text-xs lg:text-sm font-medium">
+        Published 21 Dec 2023
+      </div>
+      <!-- card title -->
+      <h1 class="mb-3 text-xl lg:text-2xl font-extrabold">
+        HTML & CSS foundations
+      </h1>
+      <p class="mb-6 text-sm lg:text-base text-[#6B6B6B]">
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <!-- avatar -->
+      <div class="flex gap-x-3 items-center">
+        <img class="w-8 h-8" src="./assets/image-avatar.webp" alt="" />
+        <div class="font-extrabold text-sm">Greg Hooper</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- box-shadow: 8px 8px 0px #000000; -->
